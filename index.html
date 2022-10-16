@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Vodka Absolut</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body> 
+    <div class="navBar">
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu">
+                    <span class="comprar"><img src="./img/carrito de compras.png" alt="imagen carrito" height="20px"></span><span class="comprar" id="contCarrito">0</span>
+                </label>
+            </div>
+            <div class="logo">
+                <img src="./img/wallpaper absolut.png"class="imgLogo" height="40px">
+            </div>
+            <h1 class="bienvenida"> Bienvenidos a nuestra tienda de bebidas</h1>
+        </div>
+    </div>
+    <div class="capa"></div>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <h3>Carrito de bebidas</h3>
+                <br>
+                <table id="lista-carrito" class="">
+                    <thead>
+                        <tr>
+                            <th>Bebida</th>
+                            <th>Precio</th>
+                            <th>Cantidad&nbsp</th>
+                            <th>&nbspSubtotal</th>
+                            <th></th>
+                            </tr>
+                        </thead>
+                    <tbody>
+                 
+                    </tbody>
+                </table>
+                <br>
+                <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+                <br>
+                <div class="botones">
+                    <button type="button" href="#" id="pagar" class="botonComprar">Pagar</button>
+                    <button type="button" id="vaciar" class="botonVaciar">Vaciar el carrito</button>
+                </div>    
+            </nav>
+            <label for="btn-menu"><span class="close">Salir</span></label>
+        </div>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="container" class="grid-container">
+        <div id="contenedorProductos" class="productos resultado">  
+            
+        </div>  
+    </div>
+    <footer>
+        <p>© Todos los derechos reservados</p>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+</html>
